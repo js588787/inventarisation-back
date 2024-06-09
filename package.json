@@ -1,0 +1,16 @@
+{
+    "name": "back",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "fs": "^0.0.1-security",
+      "pdfkit": "^0.15.0",
+      "qrcode": "^1.5.3",
+      "sequelize": "^6.37.2",
+      "sharp": "^0.33.4",
+      "sqlite3": "^5.1.7",
+      "express": "4.19.2",
+      "cors": "^2.8.5"
+    }
+  }
+  
