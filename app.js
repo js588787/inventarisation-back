@@ -13,7 +13,7 @@ app.use('/images', express.static('qr-codes'));
 app.use(express.json());
 app.use(cors());
 const port = process.env.PORT || 8000;
-const host = process.env.HOST || '127.0.0.1';
+const host = process.env.HOST || '91.107.125.203';
 const sequelize = new Sequelize({
     dialect: "sqlite",
     storage: "inventarisation.db",
